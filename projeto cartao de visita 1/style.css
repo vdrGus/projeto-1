@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(237, 248, 237);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+    font-style: italic;
+    font-weight: 700;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: url(./imagens/abstract-techno-background-with-connecting-lines.jpg);
+
+}
+
+header {
+    background: url(./imagens/881563d6444b370fa4ceea0c3183bb4c.gif);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    /* border-bottom: 2px solid #fff; */
+    /* box-shadow: 1px 1px 10px 1px #fff; */
+    border-bottom: 15px ridge #fff;
+}
+
+header ul {
+    display: flex;
+
+
+
+}
+
+header ul li {
+    padding: 5px;
+
+
+}
+
+header ul li a:hover {
+    color: rgb(41, 194, 41);
+    text-decoration: underline;
+}
+
+.container {
+    text-align: center;
+
+}
+
+.container .name h1 {
+    font-size: 50px;
+}
+
+.container .name h3 {
+    font-size: 25px;
+}
+
+#arrow{
+    font-size: 35px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite; 
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.rotate {
+        transform: rotate(180deg);
+        transition: 300ms;
+    }
+
+
+
+#about p {
+    max-width: 600;
+    margin: auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    /* border:  thick double #fff; */
+    padding: 25px;
+
+
+}
+
+.form input {
+    width: 30%;
+    padding: 2px 10px;
+    text-align: center;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+
+
+}
+
+.form button {
+    width: 15%;
+    padding: 2px 10px;
+    background-color: rgb(249, 254, 249);
+    color: rgb(14, 14, 14);
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px ;
+
+}
+
+.form button:hover {
+    background-color: rgb(41, 194, 41);
+    color: #fff;
+}
+
+input {
+    color: black;
+}
